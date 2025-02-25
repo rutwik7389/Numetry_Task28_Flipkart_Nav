@@ -1,0 +1,100 @@
+/* Navbar Container */
+.navbar {
+    background-color: #2874f0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-container {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Logo */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .explore {
+    font-size: 12px;
+    color: white;
+    margin-left: 5px;
+  }
+  
+  .plus {
+    color: yellow;
+    font-weight: bold;
+  }
+  
+  /* Search Bar */
+  .search-box {
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .search-box input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    flex-grow: 1;
+    font-size: 14px;
+  }
+  
+  .search-box button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Right Side Navigation */
+  .nav-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .login-btn {
+    background-color: white;
+    color: #2874f0;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .more, .cart {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .search-box {
+      width: 60%;
+    }
+  
+    .nav-items {
+      gap: 10px;
+    }
+  
+    .more {
+      display: none;
+    }
+  }
+  
